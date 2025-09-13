@@ -24,7 +24,7 @@ body {
 
 }
 
-.flex{
+.flex {
     display: flex;
     gap: 12px;
 }
@@ -48,7 +48,7 @@ nav {
     margin: auto;
     justify-content: space-between;
     height: 112px;
-    
+
 
 }
 
@@ -105,14 +105,15 @@ nav button {
 }
 
 .btn {
-    padding: 8px 12px; /* top button & left right */
+    padding: 8px 12px;
+    /* top button & left right */
     color: white;
     border-radius: 4px;
     font-weight: bold;
     background-color: #00000096;
     border: 1px solid rgba(255, 255, 255, 0.408);
     cursor: pointer;
-    
+
 }
 
 .btn-red {
@@ -121,7 +122,7 @@ nav button {
     padding: 13px 40px 13px 25px;
     font-size: 22px;
     border: 1px solid red;
-    
+
 
 }
 
@@ -149,45 +150,47 @@ nav button {
 }
 
 
+/* trending */
+
 .trending {
     color: white;
-    padding: 50px 10%;
+    padding: 50px 9%;
 }
 
-.trending h2{
+h2 {
     font-family: sans-serif;
-   
+
 }
 
-.trending-row{
+.trending-row {
     display: flex;
     gap: 50px;
     position: relative;
-    overflow-x: auto; 
+    overflow-x: auto;
     scrollbar-width: none;
     padding-top: 23px;
-    padding-left: 35px;
- 
-    
+    padding-left: 25px;
+
+
 }
 
 
-.poster{
+.poster {
     position: relative;
-      
+
 }
 
-.poster img{
+.poster img {
     border-radius: 10px;
     transition: transform 0.3s ease;
     width: 180px;
 }
 
-.poster img:hover{
+.poster img:hover {
     transform: scale(1.05);
 }
 
-.rank{
+.rank {
     position: absolute;
     font-weight: bolder;
     font-size: 100px;
@@ -198,6 +201,43 @@ nav button {
     text-shadow: 1px 1px 7px white;
 }
 
+
+/* reason */
+.reason {
+    color: white;
+    padding: 22px 9%;
+    margin-bottom: 80px;
+
+}
+
+.reason-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 23px;
+    width: 82vw;
+
+
+}
+
+.reason-card {
+    height: 30vh;
+    padding: 25px 15px 17px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #0f172a, #1a0f1c);
+
+
+}
+
+.reason-card :nth-child(1) {
+    padding-bottom: 18px;
+}
+
+.reason-card :nth-child(2) {
+    font-family: sans-serif;
+
+    
+}
 
 
 
