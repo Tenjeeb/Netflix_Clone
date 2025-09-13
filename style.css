@@ -239,5 +239,24 @@ h2 {
     
 }
 
+@media screen and (max-width: 1200px) {
+    .reason-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 900px) {
+    .reason-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero-button{
+        flex-direction: column;
+        display: flex;
+    }
+    
+}
+
 
 
