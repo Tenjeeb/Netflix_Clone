@@ -133,7 +133,7 @@ nav button {
 }
 
 .main input {
-    padding: 17px 120px 17px 15px;
+    padding: 18px 130px 18px 15px;
     font-weight: 600;
     border-radius: 4px;
     font-size: 15px;
@@ -154,7 +154,7 @@ nav button {
 
 .trending {
     color: white;
-    padding: 50px 9%;
+    padding: 50px 10%;
 }
 
 h2 {
@@ -196,7 +196,7 @@ h2 {
     font-size: 100px;
     font-family: sans-serif;
     top: 135px;
-    right: 155px;
+    right: 150px;
     color: black;
     text-shadow: 1px 1px 7px white;
 }
@@ -205,7 +205,7 @@ h2 {
 /* reason */
 .reason {
     color: white;
-    padding: 22px 9%;
+    padding: 22px 10%;
     margin-bottom: 80px;
 
 }
@@ -215,7 +215,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     padding-top: 23px;
-    width: 82vw;
+    width: 80vw;
 
 
 }
@@ -224,8 +224,8 @@ h2 {
     height: 30vh;
     padding: 25px 15px 17px;
     border-radius: 15px;
-    background: linear-gradient(to bottom, #0f172a, #1a0f1c);
-
+    background: linear-gradient(to bottom, #11192f, #1f1122);
+    position: relative;
 
 }
 
@@ -250,13 +250,54 @@ h2 {
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 650px){
     .hero-button{
         flex-direction: column;
         display: flex;
     }
     
 }
+
+.reason-card .icon{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}
+
+.faq{
+    color: white;
+    padding: 22px 10%;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.faq-box{
+    display: flex;
+    background-color: rgb(48, 47, 47);
+    padding: 28px;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    
+    
+}
+
+.faq-box:hover{
+    background-color: rgba(128, 128, 128, 0.529);
+    
+}
+
+
+
+.faq h2{
+    padding-bottom: 11px;
+}
+
 
 
 
