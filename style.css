@@ -72,11 +72,20 @@ nav button {
     flex-direction: column;
     position: relative;
     /* so the text will appear infront of the box */
-    font-family: "Martel Sans", sans-serif;
-    gap: 10px;
+    font-family: sans-serif;
+    gap: 25px;
     padding: 0 30px;
 
+}
 
+@media screen and (max-width: 500px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+       
+    }
+    
 }
 
 
@@ -141,6 +150,23 @@ nav button {
     background-color: #161616cd;
     border: 1px solid rgba(255, 255, 255, 0.408);
 }
+
+@media screen and (max-width: 400px){
+    .main input{
+       padding: 18px 90px 18px 15px;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    nav{
+       display: flex;
+       flex-direction: column;
+    }
+    
+}
+
+
 
 .hero-button {
     display: flex;
@@ -373,6 +399,45 @@ footer a{
     background-color: #161616ad;
     border: 1px solid rgba(255, 255, 255, 0.408);
 
+}
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .ready input{
+        padding: 18px 300px 18px 15px;
+    }
+
+    .ready .hero-button{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .ready input{
+        padding: 18px 100px 18px 15px;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer .footer-item:nth-child(3){
+        margin-top: 14px;
+    }
+
+    .footer .footer-item:nth-child(4){
+        margin-top: 14px;
+    }
+    
 }
 
 
